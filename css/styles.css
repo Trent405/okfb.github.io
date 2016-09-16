@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {	
+	background-color: #337AB7;
+}
 body {
 	-ms-overflow-y: scroll;
 	    overflow-y: scroll;
@@ -9,23 +12,31 @@ body {
 	    overflow-x: hidden;
 }
 .header {
-	background: #EEE;
+	padding-top: 15px;
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
+}
+.header hr {	
+	margin-bottom: 0;
+	height: 3px;
+	border-color: #AA0000;
+	margin-top: 10px;
 }
 .menu-bar {
 	background: #337AB7;
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 }
+.btn-menu {
+	margin-top: 7px;
+	margin-bottom: 0 !important;
+}
 .btn-menu,
 .btn-menu:focus,
 .btn-menu:active,
 .btn-menu:visited {
 	color: #EEE;
-	border-color: #EEE;
-	background-color: transparent;
-	margin-top: 10px;
+	background-color: #337AB7;
 	-webkit-transition: all 0.5s;
 	   -moz-transition: all 0.5s;
 	    -ms-transition: all 0.5s;
@@ -35,8 +46,35 @@ body {
 }
 .btn-menu:hover {
 	background: #EEE;
-	color: #337AB7;
-	border-color: #AA0000;
+	color: #337AB7 !important;
+	font-weight: bold;
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+	    -ms-transition: all 0.5s;
+	     -o-transition: all 0.5s;
+	        transition: all 0.5s;
+	text-transform: uppercase;
+}.btn-departments {
+	margin-top: 7px;
+	margin-bottom: 0 !important;
+}
+.btn-departments,
+.btn-departments:focus,
+.btn-departments:active,
+.btn-departments:visited {
+	color: #EEE;
+	background-color: #337AB7;
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+	    -ms-transition: all 0.5s;
+	     -o-transition: all 0.5s;
+	        transition: all 0.5s;
+	text-transform: uppercase;
+}
+.btn-departments:hover {
+	background: #EEE;
+	color: #337AB7 !important;
+	font-weight: bold;
 	-webkit-transition: all 0.5s;
 	   -moz-transition: all 0.5s;
 	    -ms-transition: all 0.5s;
@@ -46,17 +84,20 @@ body {
 }
 .header-list {
 	position: relative;
-	top: 25px;
+	top: 10px;
 }
 .header-list li {
 	list-style: none;
 	display: inline-block;
 }
 #bureau {
-	height: 75px;
+	height: 35px;
 }
 #okfb-text {
 	position: relative;
-	top: -20px;
-	height: 35px;
+	top: 0;
+	height: 30px;
+}
+.main-section {
+	background-color: #CEDFF7;
 }
